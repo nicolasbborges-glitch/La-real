@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +8,10 @@
 
 body {
     background-color: #f2f2f2;
-    color: #00205b; /* Azul Real Madrid */
+    color: #00205b; 
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #ffffff;
     display: flex;
@@ -45,10 +45,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #d4af37; /* Dourado */
+    color: #d4af37; 
 }
 
-/* Seção Principal */
+
 .principal {
     display: flex;
     align-items: center;
@@ -98,7 +98,7 @@ button:hover {
     transform: scale(1.08);
 }
 
-/* Seção de Cards */
+
 .cards {
     display: flex;
     justify-content: space-around;
