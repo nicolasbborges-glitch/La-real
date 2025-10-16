@@ -1,0 +1,119 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #00205b; /* Azul Real Madrid */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00205b;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d4af37; /* Dourado */
+}
+
+/* Seção Principal */
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 40px;
+    background: linear-gradient(to right, #ffffff, #e8ecf7);
+}
+
+.principal .texto {
+    max-width: 500px;
+}
+
+.principal h1 {
+    font-size: 2.8rem;
+    color: #00205b;
+    margin-bottom: 20px;
+}
+
+.principal p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00205b;
+    transform: scale(1.1);
+}
+
+.principal img {
+    width: 400px;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+}
+
+.principal img:hover {
+    transform: scale(1.08);
+}
+
+/* Seção de Cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.card {
+    background-color: #f9f9f9;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    margin: 15px;
+    transition; all 0.3s ease;
+}
